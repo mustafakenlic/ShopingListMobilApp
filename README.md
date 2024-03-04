@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Family Shopping List App</h1>
 
-  An app to family members use together to creating shopping list for their needs
+An app for family members to use together, creating a shopping list for their needs.
 
 [Family Shopping List](https://familyshoppinglist.mustafakenlic.dev/)
 
