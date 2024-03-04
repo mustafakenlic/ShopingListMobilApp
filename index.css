@@ -1,0 +1,117 @@
+:root {
+    --white: #EEF0F4;
+    --grey: #DCE1EB;
+    --purple: #3f044a;
+    --purpleDark: #43004f;
+    --yellow: #FFFDF8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(----white);
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+input {
+    color: var(--purple);
+    background-color: var(--grey);
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+button {
+    color: var(--white);
+    background-color: var(--purpleDark);
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--purple);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 20px;
+    background-color: var(--yellow);
+    padding: 15px;
+    padding-right: 35px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    color: #432000;
+    position: relative;
+}
+
+ul li span {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background-color: var(--purpleDark);
+    color: var(--white);
+    border-radius: 50%;
+    padding: 3px 6px;
+    display: block;
+    width: 30px;
+    text-align: center;
+    font-weight: 800;
+}
+
+ul li span:hover{
+    background-color: var(--purple);
+}
