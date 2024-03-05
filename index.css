@@ -100,8 +100,8 @@ ul li {
 
 ul li span {
     position: absolute;
-    top: 2px;
-    right: 2px;
+    top: calc(50% - 15px);
+    right: 5px;
     background-color: var(--purpleDark);
     color: var(--white);
     border-radius: 50%;
